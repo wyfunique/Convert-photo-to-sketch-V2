@@ -1,5 +1,5 @@
 function S = drawLines( gradient ) 
-%   Implementation of algorithm part 1 in paper Lu, Cewu, Li Xu and Jiaya Jia. ¡°Combining sketch and tone for pencil drawing production.¡± Expressive (2012). 
+%   Implementation of algorithm part 1 in paper Lu, Cewu, Li Xu and Jiaya Jia. Combining sketch and tone for pencil drawing production. Expressive (2012). 
 %   gradient: G in the paper
 %   Most of the variable names are identical to the symbols used in the paper
     gradient = double(gradient);
