@@ -26,7 +26,7 @@ function grad = singleGradient( img, axis )
         grad = shifted_gray - grad;
         grad(m, :, :) = -grad(m, :, :);
     else
-        disc('invalid axis type');
+        disp('invalid axis type');
         grad = zeros(m, n);
     end
 end
