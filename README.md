@@ -12,3 +12,12 @@ MATLAB R2012a
 **drawLines.m**: the core function of the algorithm
 
 **road_sign.png**: example image used in `example.m`
+
+## Example 
+Original image:
+
+![Original image](road_sign.png)
+
+The sketch / line-drawing:
+
+![Original image](road_sign_sketch.png)
